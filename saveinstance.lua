@@ -3739,6 +3739,7 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 					.. (identify_executor and table.concat({ identify_executor() }, " ") or "Unknown")
 					.. "\n]]"
 			)
+		© R STUDIO LAB https://rstudiolab.online.
 		end
 		do
 			local tmp = { "<SharedStrings>" }
