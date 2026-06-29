@@ -4010,6 +4010,7 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 		
 		Or Destroy the Camera.
 
+		© R STUDIO LAB https://rstudiolab.online
 		This file was generated with the following settings:
 		]]
 					.. service.HttpService:JSONEncode(OPTIONS)
@@ -4036,7 +4037,6 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 					.. (identify_executor and table.concat({ identify_executor() }, " ") or "Unknown")
 					.. "\n]]"
 			)
-		© R STUDIO LAB https://rstudiolab.online.
 		end
 		do
 			local tmp = { "<SharedStrings>" }
